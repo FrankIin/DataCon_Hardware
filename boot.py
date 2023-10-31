@@ -30,7 +30,7 @@ gpsUART.write('$PUBX,40,RMC,0,0,0,0*47\r\n')
 utime.sleep_ms(100)
 gpsUART.write('$PUBX,40,VTG,0,0,0,0*5E\r\n')
 utime.sleep_ms(100)
-print ('NMEA sentences deactivated')
+# print ('NMEA sentences deactivated')
 
 # Calculate the update rate in milliseconds (5 minutes = 300,000 ms)
 update_rate_ms = 300000

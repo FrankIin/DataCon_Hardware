@@ -10,7 +10,7 @@ def send_at_command(command):
     gsmUART.write(command + b'\r\n')
     utime.sleep_ms(500) 
     response = gsmUART.read(gsmUART.any())
-    print(response)
+#     print(response)
     return response
 
 def main():
